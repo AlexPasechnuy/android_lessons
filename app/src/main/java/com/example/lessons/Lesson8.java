@@ -21,7 +21,6 @@ public class Lesson8 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lesson8);
-        setTitle("Lesson 8");
         login();
     }
 

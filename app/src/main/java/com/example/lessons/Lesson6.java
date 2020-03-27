@@ -19,7 +19,6 @@ public class Lesson6 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lesson6);
         addListenerOnButton();
-        setTitle("Lesson 6");
     }
 
     private EditText pass;
@@ -30,7 +29,7 @@ public class Lesson6 extends AppCompatActivity {
 
     public void addListenerOnButton() {
         pass = (EditText) findViewById(R.id.editText);
-        show_hint = (Button) findViewById(R.id.button);
+        show_hint = (Button) findViewById(R.id.button2);
         alert = (Button) findViewById(R.id.alert_btn);
 
         show_hint.setOnClickListener(
