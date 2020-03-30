@@ -67,7 +67,7 @@ public class Lesson6 extends AppCompatActivity {
                                 .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                                     @Override
                                     public void onClick(DialogInterface dialog, int which) {
-                                        finish();
+                                        //finish();
                                     }
                                 })
                                 .setNegativeButton("No", new DialogInterface.OnClickListener() {
